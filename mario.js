@@ -237,7 +237,7 @@ scene("game", ({ level, score }) => {
         scoreLabel.text = scoreLabel.value
     })
 
-    const ENEMY_SPEED = 15
+    const ENEMY_SPEED = 20
     
     action('dangerous', (d) => {
     d.move(-ENEMY_SPEED,0)
