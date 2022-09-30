@@ -295,8 +295,4 @@ scene('lose', ({score}) => {
     add([text(score,32), origin('center'), pos(width()/2, height()/2)])
 }) 
 
-scene('lose', ({lose}) => {
-    add([text('Mr.Peachy cannot beat the game'), origin('center'), pos(width()/2, height()/2)])
-}) 
-
 start("game", {level: 0, score: 0})
