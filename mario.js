@@ -185,7 +185,7 @@ scene("game", ({ level, score }) => {
     }
 
     const player = add([
-        sprite('peach'), solid(), pos(80,0),
+        sprite('peach'), solid(), pos(60,0),
         body(), origin('bot'), big()
     ])
 
