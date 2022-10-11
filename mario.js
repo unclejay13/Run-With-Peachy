@@ -296,3 +296,13 @@ scene('lose', ({score}) => {
 }) 
 
 start("game", {level: 0, score: 0})
+
+addEventListener('keydown',({keyCode}) => {
+    console.log(keyCode)
+    switch (keyCode) {
+        case 116:
+        console.log('reload')
+        location.reload(true)
+        break
+    }
+}) 
